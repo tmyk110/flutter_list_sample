@@ -21,6 +21,7 @@ void main() {
       Work(name: "仮設工事", completed: false),
       Work(name: "基礎工事", completed: true),
       Work(name: "木工事", completed: false),
+      Work(name: "左官工事", completed: false),
     ];
     when(repository.fetchWorks()).thenAnswer((_) => Future.value(works));
 
