@@ -1,9 +1,9 @@
 name: Labeler
 
-on: 
+on:
   pull_request:
-    branches: 
-      - 'test/**'
+    branches:
+      - 'test/*'
 
 jobs:
   label:
