@@ -1,9 +1,6 @@
 name: Labeler
 
-on:
-  pull_request:
-    branches:
-      - 'test/**'
+on: push
 
 jobs:
   triage:
