@@ -3,7 +3,7 @@ name: Labeler
 on:
   pull_request:
     branches:
-      - 'test/*'
+    - master
 
 jobs:
   label:
